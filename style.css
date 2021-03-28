@@ -93,18 +93,18 @@ nav a:hover::before {
 .ux {
     /*margin-top: 80px;*/
     display: inline-block;
-    font-size: 24px;
+    font-size: 42px;
     color: #1B98CE;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .loving {
-    margin-top: 60px;
+    margin-top: 150px;
     display: block;
     font-family: 'Crimson Text', serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 48px;
+    font-size: 36px;
     letter-spacing: 0.1em;
 }
 
@@ -123,7 +123,7 @@ nav a:hover::before {
 
 .art {
     display: grid;
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: Koralle NF;
     font-style: normal;
     font-weight: 900;
@@ -138,8 +138,8 @@ nav a:hover::before {
 
 .and {
     display: grid;
-    margin-left: 248px;
-    margin-top: -170px;
+    margin-left: 280px;
+    margin-top: -190px;
     font-family: Teko;
     font-style: normal;
     font-weight: normal;
@@ -151,7 +151,7 @@ nav a:hover::before {
 
 .tech {
     display: grid;
-    margin-top: -75px;
+    margin-top: -70px;
     font-family: Teko;
     font-style: bold;
     font-weight: 900;
@@ -165,7 +165,7 @@ nav a:hover::before {
 
 .collide {
     display: grid;
-    margin-top: -40px;
+    margin-top: -70px;
     margin-left: 900px;
     font-family: 'Crimson Text', serif;
     font-style: normal;
@@ -183,85 +183,48 @@ h1 {
 
 h2 {
     font-family: Koralle NF;
-    font-size: 28px;
+    font-size: 36px;
 }
 
-/*------------------------------------------Science Section---*/
+/*------------------------------------------About Scetion---*/
 
-.container.sciencePsy {
+.container.about {
+    width: 100%;
+    height: 50vh; 
+}
+
+.who {
+    padding-top: 50px;
+    font-size: 42px;
+    color: #1B98CE;
+    font-weight: 1000;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+/*------------------------------------------Featured Work Section---*/
+
+.work h2 {
+    display: block;
+    padding-top: 100px;
+    font-size: 42px;
+    color: #1B98CE;
+    font-weight: 1000;
+
+}
+
+.content.work {
     display: table;
     background-image: url("images/sectionRectangle.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
-}
-
-.light {
-    display: grid;
-    margin-top: 200px;
-    margin-left: 150px
-}
-
-.science {
-    display: grid;
-    letter-spacing: 0.1em;
-    color: #8DA656;
-    font-family: Koralle NF;
-    font-size: 144px;
-    margin-top: -275px;
-    margin-left: 335px;   
-}
-
-.anotherAnd {
-    display: grid;
-    margin-left: 949px;
-    margin-top: -125px;
-    font-family: Teko;
-    font-size: 144px;
-    letter-spacing: 0.1em;
-    color: rgba(133, 143, 110, 0.5);
-}
-
-.psy {
-    display: grid;
-    margin-left: 700px;
-    margin-top: -50px;
-    margin-bottom: 50px;
-    font-family: Koralle NF;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    letter-spacing: 0.1em;
-    color: #DFA716;
-
-}
-
-.inspire {
-    display: grid;
-    margin-left: 1000px;
-    font-family: 'Crimson Text', serif;
-    font-size: 24px;
-    letter-spacing: 0.1em;
-}
-
-
-/*------------------------------------------User Research Content Three Section---*/
-
-.three {
-    font-family: 'Crimson Text', serif;
-    font-size: 36px;
-    letter-spacing: 0.1em;
-    text-align: center;
-}
-
-.container.tribe {
-    display: table;
-    background-image: url("images/backgroundShapes.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 1424px;
+    height: 100hv;
 }
 
 .tribe {
@@ -271,7 +234,6 @@ h2 {
     font-size: 64px;
     display: flex;
     letter-spacing: 0.05em;
-    color: #4469A6;
 }
 
 .website {
@@ -281,7 +243,7 @@ h2 {
     font-size: 36px;
     display: flex;
     letter-spacing: 0.05em;
-    color: #48577D;
+    
 }
 
 .teach {font-family: Koralle NF;
@@ -301,115 +263,7 @@ h2 {
     margin-left: 200px;
 }
 
-
-/*------------------------------------------My Skills Section---*/
-
-.mySkills {
-    position: relative;
-    top: 50px;
-    margin: 100px;
-}
-
-h3 {
-    font-family: Koralle NF;
-    font-size: 20px;
-}
-
-.myskills {
-    display: flex;
-}
-
-.flexContainer {
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px solid rgb(98, 55, 116);
-    border-radius: 20px;
-    padding: 20px;
-    margin: 50px;
-   
-}
-
-.flexbox-item {
-    
-    justify-content: space-evenly;
-    border-color: 2px solid black;
-    padding: 20px 20px 20px 20px;
-    margin: 20px;
-    /*background-color: #E5EDFF;*/
-    border-radius: 10px;
-}
-
-.flexbox-item h3 {
-    font-family: Koralle NF;
-    font-size: 20px;
-    justify-items: center;
-    text-align: center;
-}
-
-.flexbox-item p {
-    justify-items: center;
-    text-align: center;
-}
-
-.flexbox-item img {
-    justify-items: center;
-    text-align: center;
-}
-
-/*----------------------------------------My Work Section---*/
-
-.myWork {
-    position: relative;
-    top: 50px;
-    margin: 100px;
-}
-
-.workGrid {
-    display: grid;
-    justify-content: space-evenly;
-    border: 2px solid rgb(98, 55, 116);  
-    border-radius: 20px;
-    padding: 20px;
-    margin: 50px;
-    row-gap: 20px;
-    grid-template-columns: 30% auto;
-    grid-template-areas: 
-    "item-A item-A1"
-    "item-B item-B1"
-    "item-C item-C1";
-    
-}
-.workGrid-item {
-    background-color: #E5EDFF;
-    border-radius: 10px;
-    padding: 20px 20px 20px 20px;
-    margin: 20px;
-    
-}
-
-.workGrid-item item-C {
-    display: inline-flex;
-
-}
-
-.workGrid-item p {
-    justify-items: center;
-    text-align: center;
-}
-
-.workGrid-item h4 {
-    font-family: Koralle NF;
-    font-size: 20px;
-    justify-items: center;
-    text-align: center;
-}
-
-#viewAll {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-/*------------------------------------------------footer---*/
+/*------------------------------------------------Footer---*/
 
 footer {
     display: block;
@@ -426,58 +280,6 @@ footer p{
 
 }
 
-/*
-footer {
-    background: #E5EDFF;
-}
-
-footer::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.footer-nav {
-    float: left;
-}
-
-footer a{ 
-    color: black;
-    text-decoration: none;
-    font-family: Koralle NF;
-    font-size: 18px;
-}
-
-footer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-footer li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-bottom: 50px;
-
-    /*position: relative;*/
-
-/*
-}
-
-footer a{ 
-    color: black;
-    text-decoration: none;
-    font-family: Koralle NF;
-    font-size: 18px;
-}
-
-
-i.mysize {font-size: 36px;}
-
-footer i {
-    float: right;
-}
-*/
 
 
     @media only screen and (max-width: 1100px){
